@@ -1,4 +1,5 @@
 body{
+   
     background-color:pink;
 }
 #logo{
@@ -45,4 +46,12 @@ h3{
 .pokemon .info{
     margin-top:30px;
     /* margin-left:5px; */
+}
+
+@media screen and (max-width: 600px){
+    #logo{
+	 margin-top:40px!important;
+	 margin-left:45px!important; 
+            
+    }
 }
