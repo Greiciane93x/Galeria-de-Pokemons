@@ -66,7 +66,7 @@ const pokemons_number = 150;
 
         const pokeInnerHTML = `
             <div class="img-container"> 
-                <img src="https://pokeres.bastionbot.org/images/pokemon/${pokemon.id}.png"
+                <img src="https://pokeres.bastionbot.org/images/pokemon/${pokemon.id}.png"/> 
             </div>
             <div class="info"> 
                 <h3 class="name">${name}</h3>
